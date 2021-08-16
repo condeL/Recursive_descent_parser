@@ -1,0 +1,7 @@
+a := 2;
+b := 5;
+if (a < b) then
+    repeat
+        a := a + 1
+    until (b < a)
+end

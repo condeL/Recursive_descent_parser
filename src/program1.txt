@@ -1,0 +1,11 @@
+{Program to compute factorial
+in the MINI Language}
+read x;  { Input an integer }
+if 0 < x then    {Will not compute if x <= 0 }
+    fact := 1;
+    repeat
+        fact := fact*x;
+        x := x-1
+    until x = 0;
+    write fact { Output Factorial of x }
+end
